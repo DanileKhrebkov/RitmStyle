@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(./fonts/proximanova_regular.ttf);
+}
+
+body{
+    font-family: "Proxima nova";
+    background-color: #162831;
+    width: 1296px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "El Messiri", sans-serif;
+}
+
+header{
+    display: flex;
+ padding: 30px 0;
+ align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+nav ul a{
+    color: #FFF;
+font-size: 14px;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+}
+
+header button{
+padding: 9px 15px;
+border-radius: 3px;
+border: none;
+background-color: #018ABE;
+color: #FFF;
+font-size: 13px;
+cursor: pointer;
+font-weight: 600;
+}
+
+header button:hover{
+    transition: filter .1s linear;
+    filter: brightness(110%);
+}
+
+main{
+    margin-top: 20px;
+
+}
+
+.first{
+    height: 600px;
+    background: url(./img/swim1.svg);
+    background-size: cover;
+    background-color: #98C9DC80;
+    background-blend-mode: lighten;
+    background-position: 0 -10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 136px;
+
+}
+
+.first h1{
+    color: #FFF;
+    gap: 25px;
+    font-size: 64px;
+    font-weight: 700;
+}
+.first p{
+    color: #FFF;
+
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.first p:before{
+    content: url(./img/leafleft.svg);
+    display: inline-block;
+    margin-right: 66px;
+   
+}
+
+.first p:after{
+    content: url(./img/leafright.svg);
+    display: inline-block;
+    margin-left: 66px;
+  
+}
+
